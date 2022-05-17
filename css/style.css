@@ -1,0 +1,153 @@
+body {
+    color: #2a2726;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.our-mission-content h2 {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    margin: 0.5rem;
+}
+
+.our-mission-content h4 {
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
+    margin: 0.5rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    gap: 0.125rem 0.625rem;
+}
+
+header a {
+    color: #2a2726;
+    font-size: 1.5rem;
+}
+
+header {
+    background: white;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.our-mission {
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 31.25rem;
+    justify-content: center;
+    min-height: auto;
+}
+
+.our-mission-content {
+    background-color: snow;
+    width: 100%;
+}
+
+.our-services h2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    margin-top: 3rem
+}
+
+.our-services h4 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.our-services-container {
+    align-items: center;
+    display: inline-flex;
+    gap: 1rem 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 1.25rem;
+}
+
+.our-services-container img {
+    border-radius: 0.25rem;
+    height: 200px;
+    object-fit: cover;
+    width: 350px;
+}
+
+.picture-and-text p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 0.3125rem;
+}
+
+.our-team-container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+    margin: 3rem 0 2.5rem;
+    min-height: 500px;
+}
+
+.our-team-title {
+    padding-top: 3.75rem;
+    width: 100%;
+}
+
+.our-team-container h2 {
+    background-color: snow;
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+}
+
+.persons-container {
+    column-gap: 0.9375rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.person {
+    flex-basis: 300px;
+    margin: 0.2rem 0 3.125rem;
+}
+
+.person img {
+    height: 200px;
+    width: 300px;
+}
+
+.person h4, p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.person p {
+    font-size: 1.3rem;
+}
+
+footer h5 {
+    text-align: left;
+}
